@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap"
       rel="stylesheet"
@@ -27,15 +28,15 @@
     <div class="body">
       <div class="stranger"></div>
       <div class="me"></div>
-      <div class="readChat">
+      <div id="wholeChat" class="readChat">
         <div class="youchat">
           <p class="you" id="youChat"></p>
-          <p class="bodyChat" id="bodyChat"></p>
+          <p class="bodyChat" id="sentChat"></p>
         </div>
       </div>
     </div>
 
-    <button onclick="New()" class="next">
+    <button id="redBack" onclick="New()" class="next">
       <div id="newBtn" class="new">New</div>
       <div class="esc">Esc</div>
     </button>

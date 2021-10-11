@@ -1,13 +1,23 @@
 function New() {
   document.getElementById("newBtn").innerHTML = "Stop";
+  document.getElementById("newBtn").style.color = "red";
 }
 
 function Send() {
-  let sent = document.getElementById("written").value;
-  document.getElementById("bodyChat").innerHTML = sent;
-  document.getElementById("bodyChat").style.color = "black";
-  document.getElementById("bodyChat").style.fontWeight = "lighter";
-  document.getElementById("youChat").innerHTML = "You:";
-  document.getElementById("youChat").style.color = "blue";
-  document.getElementById("youChat").style.fontWeight = "bold";
+  var written = document.getElementById("written").value;
+  var sentchat = document.getElementById("sentChat");
+  sentchat.innerHTML = written;
+
+  sentchat.style.color = "black";
+  sentchat.style.fontWeight = "lighter";
+  var youchat = document.getElementById("youChat");
+  youchat.innerHTML = "You:";
+  youchat.style.color = "blue";
+  youchat.style.fontWeight = "bold";
+
+  if (written === "") {
+    youchat.innerHTML = "";
+  } else {
+    youchat.innerHTML;
+  }
 }

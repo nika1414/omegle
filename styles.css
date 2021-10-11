@@ -72,10 +72,6 @@
   cursor: pointer;
 }
 
-.next:focus {
-  background: rgb(252, 97, 97);
-}
-
 .new {
   background-color: transparent;
   color: white;
