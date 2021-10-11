@@ -20,4 +20,6 @@ function Send() {
   } else {
     youchat.innerHTML;
   }
+
+  
 }
